@@ -28,8 +28,8 @@ def printer(array)
   new_array.each do | i |
     puts i 
   end 
-  assign_rooms(array)
-  array.each do | i |
+  assign_rooms(new_array)
+  assignments.each do | i |
     puts i 
 end 
 end 
