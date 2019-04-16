@@ -16,7 +16,7 @@ end
 def assign_rooms(array)
   new = []
   array.each_with_index do |value, index|
-  new.unshift("#{index}: #{value}")
+  new.push("#{index}: #{value}")
 end
 assignments = []
 new.each do |key, value| 
