@@ -23,8 +23,13 @@ end
 return assignments
 end 
 
-def printer
-  
+def printer(array)
   batch_badge_creator(array)
+  array.each do | i |
+    puts array[i]
+  end 
   assign_rooms(array)
+  array.each do | i |
+    puts array[i]
+end 
 end 
