@@ -15,8 +15,8 @@ end
 
 def assign_rooms(array)
 assignments = []
-i = 0  
-while i < array.length 
+i = 1  
+while i < 7 
   assignments.push("Hello, #{array[i]}! You'll be assigned to room #{i}!")
   i += 1 
 end
