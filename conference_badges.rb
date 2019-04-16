@@ -5,8 +5,8 @@ end
 
 attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
+new_array = []
 def batch_badge_creator(array)
-   new_array = []
    array.each do | i |
      new_array.push(badge_maker(i))
    end 
