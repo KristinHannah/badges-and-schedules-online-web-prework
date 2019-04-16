@@ -23,8 +23,8 @@ end
 return assignments
 end 
 
-def printer(array)
-  batch_badge_creator(array)
+def printer(attendees)
+  batch_badge_creator(attendees)
     array.each do | item |
       puts item
     end 
