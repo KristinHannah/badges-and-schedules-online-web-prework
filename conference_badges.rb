@@ -24,8 +24,7 @@ return assignments
 end 
 
 def printer(attendees)
-  batch_badge_creator(attendees)
-    new_array.each do | item |
+  batch_badge_creator(attendees).each do | item |
       puts item
     end 
   assign_rooms(array)
